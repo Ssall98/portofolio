@@ -1,0 +1,180 @@
+
+.information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("ordi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+    margin: 0px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: orange;
+    margin: 200px;
+    color: white;
+    padding: 10px;
+    width: 1000px;
+    height: 60px;
+    position: relative;
+    margin-top: 70px;
+}
+.call{
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.mail{
+    margin-left: 150px;
+    padding-left: 50px;
+}
+button{
+    background-color: orange;
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px auto;
+    position: relative;
+     bottom: 150px;
+    z-index: 100px;
+    background-color: white;
+}
+.image img{
+    position: absolute;
+    bottom: 250px;
+    right: 240px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px ;
+    border-radius: 50%;
+    object-fit: cover;
+ 
+}
+.usage{
+    position: relative;
+    top: 100px;
+}
+h3{
+    color: orange;
+    position: relative;
+    left: 30px;
+}
+.born{
+    position: relative;
+    top: 50px;
+}
+.email{
+    position: relative;
+    right: 50px;
+}
+.marital{
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+}
+.moiborn{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.moiemail{
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+}
+.moimarital{
+    position: relative;
+    left: 115px;
+    bottom: 90px;
+}
+.logo{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+}
+.barre{
+    border: 5px solid orange;
+    border-radius: 5px;
+    width: 50px;
+
+}
+.port{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(177, 175, 175);
+    margin-top: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 300px;
+    position: relative;
+    bottom: 60px;
+}
+a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(151, 149, 149);
+}
+a:hover{
+    color: orange;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+}
+.p2{
+    position: relative;
+    top: 20px;
+}
+.p3{
+    position: relative;
+    bottom: 385px;
+    left: 310px;
+}
+.p4{
+    position: relative;
+    bottom: 380px;
+}
+.p5{
+    position: relative;
+    bottom: 2036px;
+    left: 620px;
+}
+.p6{
+    position: relative;
+    bottom: 2030px;
+    left: 620px;
+
+}
+
+
+
+
