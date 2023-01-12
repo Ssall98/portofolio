@@ -116,9 +116,9 @@ a:hover{
 }
 .images{
     width: 100%;
-    height: 200vh;
+    height: auto;
     gap: 1vh;
-    margin-top: 5%;
+    margin: 3% 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -128,78 +128,95 @@ a:hover{
     "p7 p7 p8 p8 p9 p9"
     "p7 p7 p8 p8 p10 p11";
 }
+img{
+    width: 100%;
+    height: 400px;
+}
+.p2 img, .p7 img, .p8 img{
+    width: 100%;
+    height: 815px;
+}
 .p1{
     grid-area: p1;
-    background-image: url(capture/portfolio.jpg);
-    background-size: 100% 100%;
 }
 .p2{
     grid-area: p2;
-    background-color: green;
 }
 .p3{
     grid-area: p3;
-    background-color: maroon;
 }
 .p4{
     grid-area: p4;
-    background-color: rgb(226, 215, 215);
 }
 .p5{
     grid-area: p5;
-    background-color: grey;
 }
 .p6{
-    grid-area: p6;
-    background-color: black;    
+    grid-area: p6;  
 }
 .p7{
     grid-area: p7;
-    background-color: blueviolet;
 }
 .p8{
     grid-area: p8;
-    background-color: purple;
 }
 .p9{
     grid-area: p9;
-    background-color: yellow;
 }
 .p10{
     grid-area: p10;
-    background-color: blueviolet;    
 }
 .p11{
     grid-area: p11;
-    background-color: blue;
 }
-.about {
+@media screen and (max-width: 700px) {
+    .images{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "p1"
+        "p2"
+        "p3"
+        "p4"
+        "p5"
+        "p6"
+        "p7"
+        "p8"
+        "p9"
+        "p10"
+        "p11"
+        ;
+    }
+}
+.about{
+    width: 100%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin: 50px;
-    margin-top: 80px;
+}
+.me{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .text{
-    display: flex;
-    flex-direction: row;
+    width: 80%;
     flex-wrap: wrap;
+}
+p{
+    width: 50%;
+    margin: 3% 0;
     color: rgb(151, 149, 149);
-    margin-left: 300px;
     font-size: 20px;
 }
 .pourcentage{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100%;
-    position: relative;
-    left: 300px;
 }
 svg{
-    width: 150px;
-    height: 150px;
-    margin-left: 5px;   
+    width: 170px;
+    height: 170px;  
 }
 svg circle{
     fill: none;
@@ -222,10 +239,6 @@ svg circle{
     stroke-dashoffset: 20;
 }
 span{
-    position: relative;
-    bottom: 0px;
-    top: 25px;
-    right: 100px;
     font-size: 2em;
 }
 h4{
@@ -235,12 +248,25 @@ h4{
 }
 .violet{
     width: 100%;
-    height: 100%;
+    color: white;
+    padding: 5% 0;
     background-color: rgb(23, 1, 44);
-    margin-top: 80px;
-    padding-bottom: 150px;
-    padding-top: 20px;
-    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.programme{
+    width: 90%;
+}
+.choix{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin: 0 0 3% 1%;
+    list-style-type: circle;
+}
+h4{
+    color: #FFAD01;
+    margin: 1% 0;
 }
 .haut{
     position: relative;
@@ -268,13 +294,6 @@ h4{
     bottom: 110px;
     color: rgb(230, 222, 222);
 } 
-.choix{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    position: relative;
-    right: 550px;    
-}
 .web{
     color: white;
     position: relative;
