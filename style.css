@@ -192,20 +192,24 @@ img{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 .me{
-    width: 20%;
+    min-width: 15%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 .text{
-    min-width: 80%;
-    flex-wrap: wrap;
+    width: 80%;
+    min-width: 85%;
+    display: flex;
+    flex-direction: column;
 }
 p{
     width: 50%;
-    margin: 3% 0;
+    text-align: justify;
+    margin: 3% 0%;
     color: rgb(151, 149, 149);
     font-size: 20px;
 }
@@ -243,20 +247,22 @@ span{
 }
 h4{
     position: relative;
-    color: #FFAD01;
     right: 190px;
-    top: 60px;
+    top: 50px;
+    color: #FFAD01;
 }
 .violet{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     color: white;
     padding: 5% 0;
     background-color: rgb(23, 1, 44);
-    display: flex;
-    flex-wrap: wrap;
 }
 .programme{
-    min-width: 70%;
+    width: 70%;
+    min-width: 75%;
     display: flex;
     flex-direction: column;
 }
@@ -271,13 +277,6 @@ h4{
     color: #FFAD01;
     margin: 2% 0;
 }
-.haut{
-    position: relative;
-    bottom: 180px;
-    left: 150px;
-    color: white;
-    font-size: 25px;
-}
 .bas{
     position: relative;
     bottom: 150px;
@@ -285,67 +284,19 @@ h4{
     font-size: 20px;
     color: orange;
 }
-.date{
-    position: relative;
-    bottom: 130px;
-    right: 330px;
-    color: rgb(230, 222, 222);
-}
-.lorem{
-    position: relative;
-    left: 150px;
-    bottom: 110px;
-    color: rgb(230, 222, 222);
-} 
-.web{
-    color: white;
-    position: relative;
-    left: 150px;
-}
-.master{
-    position: relative;
-    left: 150px;
-    color: orange;
-}
-.developer{
-    position: relative;
-    left: 150px;
-    color: rgb(230, 222, 222); 
-}
-.choice{
-    position: relative;
-    top: 80px;
-    right: 150px;
-}
 .education{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 5% 0;
-    margin-bottom: 100px;
+    width: 100%;
 }
 .droite{
     display: flex;
     flex-direction: column;
-    margin: 0 3% ;
-    padding: 0 2%;
+    margin: 0 5%;
+    padding: 0 3%;
     border-left: solid 2px gray;
-}
-.radio1{
-    position: relative;
-    right: 54.35%;
-    top: 5%;
-}
-.radio2{
-    position: relative;
-    right: 8.5%;
-    top: 15%;
-}
-.radio3{
-    position: relative;
-    right: 8.5%;
-    top: 15%;
 }
 .pousse{
     margin: 20px;
@@ -364,12 +315,13 @@ h4{
     font-size: 20px;
 }
 .avant{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     background-image: url(capture/slide.jpg);
-    padding: 2% 0;
+    padding: 3% 0;
     color: white;
 }
 .coder{
@@ -377,20 +329,15 @@ h4{
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
-}
-.chiffre{
     font-size: 40px;
-    display: flex;
-    word-wrap: break-word;
 }
-
 .copyright{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 3% 0;
     font-size: 20px;
-    padding: 2% 0;
     background-color: rgb(47, 4, 87);
+    width: 100%;
     color: gray;
 }
