@@ -200,7 +200,7 @@ img{
     flex-wrap: wrap;
 }
 .text{
-    width: 80%;
+    min-width: 80%;
     flex-wrap: wrap;
 }
 p{
@@ -243,7 +243,8 @@ span{
 }
 h4{
     position: relative;
-    right: 180px;
+    color: #FFAD01;
+    right: 190px;
     top: 60px;
 }
 .violet{
@@ -255,7 +256,9 @@ h4{
     flex-wrap: wrap;
 }
 .programme{
-    width: 90%;
+    min-width: 70%;
+    display: flex;
+    flex-direction: column;
 }
 .choix{
     display: flex;
@@ -264,9 +267,9 @@ h4{
     margin: 0 0 3% 1%;
     list-style-type: circle;
 }
-h4{
+.orange{
     color: #FFAD01;
-    margin: 1% 0;
+    margin: 2% 0;
 }
 .haut{
     position: relative;
@@ -315,39 +318,34 @@ h4{
     right: 150px;
 }
 .education{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 80px;
-    padding-left: 50px;
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5% 0;
     margin-bottom: 100px;
-    margin-top: 0px;
 }
 .droite{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    border: solid 2px gray;
-    border-bottom: none;
-    border-right: none;
-    border-top: none;
-    padding-left: 100px;
+    margin: 0 3% ;
+    padding: 0 2%;
+    border-left: solid 2px gray;
 }
 .radio1{
     position: relative;
-    right: 470px;
+    right: 54.35%;
+    top: 5%;
 }
 .radio2{
     position: relative;
-    right: 133px;
+    right: 8.5%;
+    top: 15%;
 }
 .radio3{
     position: relative;
-    right: 133px;
-
+    right: 8.5%;
+    top: 15%;
 }
 .pousse{
     margin: 20px;
@@ -366,15 +364,12 @@ h4{
     font-size: 20px;
 }
 .avant{
+    width: 100%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    height: 100%;
     background-image: url(capture/slide.jpg);
-    padding: 40px;
-    padding-left: 10px;
+    padding: 2% 0;
     color: white;
 }
 .coder{
@@ -384,22 +379,18 @@ h4{
     flex-wrap: wrap;
 }
 .chiffre{
-    font-size: 60px;
-    padding-top: 20px;
-}
-.cod{
-    position: relative;
-    top: 40px;
-}
-.copyright{
+    font-size: 40px;
     display: flex;
-    flex-direction: row;
+    word-wrap: break-word;
+}
+
+.copyright{
+    width: 100%;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px;
     font-size: 20px;
+    padding: 2% 0;
     background-color: rgb(47, 4, 87);
-    width: 100%;
-    height: 100%;
     color: gray;
 }
